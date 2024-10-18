@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Deepfake Detection </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-section">
+            <h1>Deepfake Detection </h1>
+            <p>Detecting fake media with Deep Learning technology</p>
+            <button onclick="learnMore()">Learn More</button>
+        </div>
+    </header>
+
+
+    <!-- Video Upload Section -->
+<section id="video-upload">
+    <h2>Upload a Video for Deepfake Detection</h2>
+    <form id="videoForm" onsubmit="handleVideoSubmit(event)">
+        <label for="videoFile">Choose a video file (Max: 10MB):</label>
+        <input type="file" id="videoFile" accept="video/*" required>
+        <p id="error-message" style="color: red; display: none;">File size exceeds 10MB!</p>
+        <button type="submit">Upload Video</button>
+    </form>
+</section>
+
+    <!-- About Section 
+    <section id="about">
+        <h2>About Our Project</h2>
+        <p>Deepfake detection is becoming increasingly important in today's digital landscape. Our solution helps detect and identify fake media in real-time, ensuring the authenticity of content online.</p>
+    </section>
+    -->
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li>Real-time Deepfake Detection</li>
+            <li>Image and Video Analysis</li>
+            <li>Comprehensive Reports</li>
+            <li>Machine Learning Models</li>
+        </ul>
+    </section>
+
+    <!-- FAQ section-->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm" onsubmit="handleSubmit(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

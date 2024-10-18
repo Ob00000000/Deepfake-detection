@@ -1,0 +1,99 @@
+/* General Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-section {
+    margin-top: 20px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2148a9e2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+    transition-duration: 0.15ms;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#features ul {
+    list-style: none;
+}
+
+#features li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+#contactForm {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contactForm label, #contactForm input, #contactForm textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#contactForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+#contactForm button:hover {
+    background-color: #0056b3;
+}
